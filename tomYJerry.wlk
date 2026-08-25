@@ -3,7 +3,7 @@ object tom {
     method estaFeliz() = energy > 50
 
 
-    method ratonComido() = raton
+    method ratonComido() = ratonComido
     method distanciaRecorrida() = distanciaMetros
     method velocidadMaxima() = energy
     // method energia() = energy  
@@ -12,11 +12,19 @@ object tom {
     }
 }
 
+object ratonComido {
+    method jerry() = energy == 15.2
+  
+}
 object jerry {
     method raton() = true 
+    var edad = 2
+    method peso() = (edad * 20) 
+
 }
 
 object nibbles {
     method raton() = true
+    method peso() = 35 
 }
 
